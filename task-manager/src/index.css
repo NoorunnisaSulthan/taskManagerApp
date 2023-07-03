@@ -1,0 +1,11 @@
+body{
+  background: url("./components/images/backgroundpic.jpg");
+  margin: 0;
+  padding: 0;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
