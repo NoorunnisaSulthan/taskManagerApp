@@ -14,19 +14,21 @@ The Task Manager App is a simple web application built using React that allows u
 ## Installation
 
 1. Clone the repository to your local machine.
-2. Navigate to the project directory: `cd task-manager-app`.
+2. Navigate to the project directory: `cd task-manager`.
 3. Install the dependencies: `npm install`.
 
 ## Usage
 
 1. Start the JSON server:
    ```shell
-   npm run server
+   cd server-api
+   npm start
    ```
-   This will start the JSON server and make it available at `http://localhost:3006`.
+   This will start the JSON server and make it available at `http://localhost:3007`.
 
 2. Start the React development server:
    ```shell
+   cd task-manager
    npm start
    ```
    This will start the React development server and open the app in your browser at `http://localhost:3000`.
